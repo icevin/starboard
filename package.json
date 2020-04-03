@@ -1,0 +1,24 @@
+{
+  "name": "starboard",
+  "version": "1.0.0",
+  "description": "ZEIT Production Deployment: https://starboard-b3nayti5g.now.sh https://starboard.now.sh Dev deployement: https://starboard-f1o44hcyu.now.sh https://starboard-git-dev.icevin.now.sh/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx @11ty/eleventy"
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icevin/starboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icevin/starboard/issues"
+  },
+  "homepage": "https://github.com/icevin/starboard#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
