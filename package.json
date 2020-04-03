@@ -4,8 +4,8 @@
   "description": "ZEIT Production Deployment: https://starboard-b3nayti5g.now.sh https://starboard.now.sh Dev deployement: https://starboard-f1o44hcyu.now.sh https://starboard-git-dev.icevin.now.sh/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "npx @11ty/eleventy"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve"
   },
   "repository": {
