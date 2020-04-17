@@ -1,0 +1,24 @@
+---
+layout: default.njk
+title: Hello World
+---
+
+{% macro skill(name, desc) %}
+    <div>
+        <h3>{{ name }}</h3>
+        <p>{{ desc }}</p>
+    </div>
+{% endmacro %}
+
+<main>
+    <section>
+        <h1> Kevin Tang </h1>
+        <div class="bio">
+            {{ skill('Photoshop', 'I suck at Ps') }}
+            {{ skill('Figma', 'I\'m okay at Figma') }}
+        </div>
+        <div class="imgwrapper">
+            <img src="image.jpg" alt="A picture."></img>
+        </div>
+    </section>
+</main>

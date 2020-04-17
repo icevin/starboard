@@ -35,7 +35,7 @@ h1 {
     grid-row: 1 / 2;
 }
 
-p {
+.bio {
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -44,7 +44,7 @@ p {
     grid-row: 2 / 3;
 }
 
-div {
+.imgwrapper {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;
